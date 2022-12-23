@@ -1,0 +1,94 @@
+#container{
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+}
+h1{
+    margin-top:55px ;
+    color:darkblue;
+    font-size: 50px;
+}
+body{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(117, 209, 212, 0.534);
+}
+.bar{
+    width:10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 px;
+}
+.nav{
+    height:50px;
+    width:100px;
+    border-radius: 5px;
+    border-color: black;
+    margin-top:30 px ;
+    margin-left: 10px;
+    float:left;
+
+}
+.butonss{
+margin-top:10px;
+}
+.lakshya{
+    background-color:palevioletred;
+}
+.try{
+    height:20px;
+    width:30px;
+    border-radius: 3px;
+    border-color: black;
+}
+
+#newArray{
+    display: block;
+    margin: 0px;
+    padding: 15px;
+    display: block;
+    /* padding-left: 200px; */
+    /* margin: 0px; */
+    /* padding: 0px; */
+
+}
+
+.row { 
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    height: 100px;
+    /* position: relative; */
+    /* border: 3px solid green;  */
+    align-items: center;
+  }
+
+.btn{
+    /* position: relative; */
+    
+    background-color:black;
+    color: blue;
+}
+
+
+.btn-outline-primary{
+    justify-content: space-around;
+    padding: 10px;
+    margin:20px;
+    margin-bottom: 50px;
+    /* color:rgb(224, 213, 213); */
+    
+}
+
+.addMore{
+    background-color:black;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+  }
+  .addMore:hover{
+    border: 1px solid #888;
+    background-color: #ddd;
+  }
+  
+
+
